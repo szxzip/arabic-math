@@ -1,5 +1,4 @@
 ---
-theme: default
 title: 伊斯兰黄金时代数学和科学成就 Mathematical and Scientific Achievements in the Islamic Golden Age
 info: |
   伊斯兰黄金时代数学和科学成就  
@@ -10,13 +9,14 @@ info: |
   
   \* This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 mdc: true
-colorSchema: dark
+drawings:
+  persist: false
 fonts:
   sans: Noto Sans CJK SC
   serif: Noto Serif CJK SC
   mono: Noto Sans Mono
-drawings:
-  persist: false
+theme: default
+colorSchema: dark
 
 defaults:
   preload: true
